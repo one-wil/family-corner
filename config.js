@@ -4,220 +4,8 @@
 // =============================================================================
 
 const STORE_CONFIG = {
-  "PRODUCTS": {
-    "1789476986031": {
-      "name": "لباس أطفال تركي",
-      "price": 300,
-      "description": "",
-      "category": "",
-      "stock": 0,
-      "featured": false,
-      "availableColors": [
-        "أحمر",
-        "أزرق"
-      ],
-      "availableSizes": [
-        "S",
-        "M"
-      ],
-      "ageRanges": [],
-      "colorImages": {
-        "أحمر": {
-          "images": [
-            "https://raw.githubusercontent.com/one-wil/dawn-dz/main/images/product-1789476986031-أحمر-1789477096937-modal3.jpg"
-          ],
-          "ageRanges": [
-            {
-              "ageFrom": " ",
-              "ageTo": " ",
-              "size": "S"
-            },
-            {
-              "ageFrom": " ",
-              "ageTo": " ",
-              "size": "M"
-            }
-          ]
-        },
-        "أزرق": {
-          "images": [
-            "https://raw.githubusercontent.com/one-wil/dawn-dz/main/images/product-1789476986031-أزرق-1789477125433-modal4.jpg"
-          ],
-          "ageRanges": [
-            {
-              "ageFrom": " ",
-              "ageTo": " ",
-              "size": "S"
-            },
-            {
-              "ageFrom": " ",
-              "ageTo": " ",
-              "size": "M"
-            }
-          ]
-        }
-      },
-      "sizeGuide": {
-        "enabled": true,
-        "guide": {
-          "S": {
-            "heightFrom": 150,
-            "heightTo": 160,
-            "weightFrom": 40,
-            "weightTo": 55
-          },
-          "M": {
-            "heightFrom": 160,
-            "heightTo": 170,
-            "weightFrom": 50,
-            "weightTo": 65
-          }
-        }
-      },
-      "createdAt": "2026-09-15T12:56:26.031Z",
-      "image": "https://raw.githubusercontent.com/one-wil/dawn-dz/main/images/product-1789476986031-1789477052559-modal3.jpg",
-      "updatedAt": "2026-09-15T12:58:09.766Z"
-    },
-    "1789581423689": {
-      "name": " Ensemble polo",
-      "price": 4000,
-      "description": "صُمم هذا المنتج بعناية فائقة ليجمع بين الأناقة والمتانة، مما يجعله الخيار الأمثل لمن يبحث عن التميّز في كل تفصيلة.\n خاماته المنتقاة بعناية تمنحه مظهراً راقياً ولمسة نهائية ناعمة تدوم مع الاستخدام اليومي دون أن تفقد بريقها.\n",
-      "category": "",
-      "stock": 0,
-      "featured": false,
-      "availableColors": [
-        "Beige - Black",
-        "Black-olive Geen",
-        "Gray-black"
-      ],
-      "availableSizes": [
-        "42-44",
-        "S",
-        "M",
-        "L"
-      ],
-      "ageRanges": [],
-      "colorImages": {
-        "Black-olive Geen": {
-          "images": [
-            "https://raw.githubusercontent.com/one-wil/vol-shop/main/images/product-1789581423689-Black-olive%20Geen-1789581763856-Messenger-creation-BFECA40B-57E0-4596-BD25-4F9D45BA3562.jpeg"
-          ],
-          "ageRanges": [
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "S"
-            },
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "M"
-            },
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "L"
-            },
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "42-44"
-            }
-          ]
-        },
-        "Beige - Black": {
-          "images": [
-            "https://raw.githubusercontent.com/one-wil/vol-shop/main/images/product-1789581423689-Beige%20-%20Black-1789581940027-Messenger-creation-810CA979-D104-4003-AC53-8D1BA722871C.jpeg"
-          ],
-          "ageRanges": [
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "S"
-            },
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "M"
-            },
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "L"
-            },
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "42-44"
-            }
-          ]
-        },
-        "Gray-black": {
-          "images": [
-            "https://raw.githubusercontent.com/one-wil/vol-shop/main/images/product-1789581423689-Gray-black-1789581994305-Messenger-creation-25516B0A-A522-42F1-9AB6-57299C553605.jpeg"
-          ],
-          "ageRanges": [
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "S"
-            },
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "M"
-            },
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "L"
-            },
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "42-44"
-            }
-          ]
-        }
-      },
-      "sizeGuide": {
-        "enabled": true,
-        "guide": {
-          "S": {
-            "heightFrom": 0,
-            "heightTo": 0,
-            "weightFrom": 0,
-            "weightTo": 0
-          },
-          "M": {
-            "heightFrom": 0,
-            "heightTo": 0,
-            "weightFrom": 0,
-            "weightTo": 0
-          },
-          "L": {
-            "heightFrom": 0,
-            "heightTo": 0,
-            "weightFrom": 0,
-            "weightTo": 0
-          },
-          "42-44": {
-            "heightFrom": 0,
-            "heightTo": 0,
-            "weightFrom": 0,
-            "weightTo": 0
-          }
-        }
-      },
-      "createdAt": "2026-09-16T17:57:03.689Z",
-      "image": "https://raw.githubusercontent.com/one-wil/vol-shop/main/images/product-1789581423689-1789581668031-Messenger-creation-810CA979-D104-4003-AC53-8D1BA722871C.jpeg",
-      "updatedAt": "2026-10-09T11:29:01.809Z"
-    }
-  },
-  "PRODUCT_ORDER": {
-    "1789476986031": 2,
-    "1789581423689": 1
-  },
+  "PRODUCTS": {},
+  "PRODUCT_ORDER": {},
   "DELIVERY_PRICES": {
     "01 - أدرار": {
       "home": 1100,
@@ -508,26 +296,21 @@ const STORE_CONFIG = {
     "freeDeliveryProducts": [
       1765137505304,
       1765145035052,
-      1765145814607,
-      1789581423689
+      1765145814607
     ]
   },
   "DISCOUNTS": {
-    "enableQuantityDiscount": true,
+    "enableQuantityDiscount": false,
     "minQuantityForDiscount": 2,
     "discountPerItem": 100,
     "discountScope": "selected",
-    "discountProducts": [
-      1789581423689
-    ],
+    "discountProducts": [],
     "enablePromotionalDiscount": false,
     "promotionalDiscountPercent": 30,
     "promotionalDiscountedPrice": 0,
     "promoDiscountScope": "selected",
-    "promoDiscountProducts": [
-      1789581423689
-    ],
-    "enableBuyXGetY": true,
+    "promoDiscountProducts": [],
+    "enableBuyXGetY": false,
     "buyXGetYBuyQuantity": 2,
     "buyXGetYFreeQuantity": 1,
     "buyXGetYScope": "selected",
@@ -536,21 +319,18 @@ const STORE_CONFIG = {
     ]
   },
   "STORE_INFO": {
-    "name": "Meghili-shop",
+    "name": "Family-Corner",
     "storeIcon": "-",
     "storeTitle": "-",
-    "tagline": "متجر الجودة المفقودة ",
-    "phoneNumbers": [
-      "0666666666",
-      "0551102155"
-    ],
-    "logo": "https://raw.githubusercontent.com/one-wil/lip-waw/main/images/store-logo-1789242847980-file-0000000012a481f4b3f05ecbb28e82cd.png",
+    "tagline": "",
+    "phoneNumbers": [],
+    "logo": "",
     "facebookUrl": "",
     "instagramUrl": "",
     "messengerUrl": "",
-    "telegramUrl": "https://t.me/Hdh",
-    "whatsappNumber": "213671466489",
-    "whatsappUrl": "https://wa.me/213671466489"
+    "telegramUrl": "",
+    "whatsappNumber": "213",
+    "whatsappUrl": "https://wa.me/213"
   },
   "AVAILABLE_COLORS": [
     "أبيض",
@@ -769,7 +549,7 @@ const STORE_CONFIG = {
   },
   "PIXEL_CODES": {
     "facebook": {
-      "enabled": true,
+      "enabled": false,
       "pixelId": "",
       "events": {
         "pageView": true,
@@ -780,7 +560,7 @@ const STORE_CONFIG = {
       }
     },
     "tiktok": {
-      "enabled": true,
+      "enabled": false,
       "pixelId": "",
       "events": {
         "pageView": true,
